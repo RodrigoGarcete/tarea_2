@@ -1,0 +1,225 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  /*padding-bottom: 75px;*/
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.centrado_v{
+  display: flex; 
+  align-items: center;
+}
+
+.seccion_conceptual{
+  display: flex;
+  flex-direction: row;
+}
+
+div.seccion_conceptual div{
+  width: 60%;
+}
+
+div.seccion_conceptual img{
+  width: 35%;
+}
+
+.menu {
+  background: url(../images/sample_menu_bg.jpg) no-repeat bottom;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.menu_recomendado{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+  background-color: white;
+  box-shadow: 5px 5px 5px grey;
+  margin: 10px;
+}
+
+li.menu_recomendado img{
+  width: 55%;
+  height: 300px;
+  object-fit: cover
+}
+
+li.menu_recomendado div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  padding: 10px;
+}
+
+.ambos_menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.precio{
+  text-align: right;
+  font-weight: bold;
+}
+
+.coffee_menu{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 49%;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+li.coffee_menu img{
+  width: 20%;
+  border-radius: 50%;
+}
+
+li.coffee_menu div{
+  width: 80%;
+  padding: 10px;
+}
+
+.contenedor_coffee{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 20px;
+}
+
+.acceso{
+  display: flex;
+}
+
+dl.acceso dt{
+  width: 80px;
+}
+
+.class{
+  width: 100%;
+}
+
+.pie_pagina{
+  background-color: black;
+  padding-bottom: 8px;
+}
+
+footer.pie_pagina p{
+  font-size: small;
+  color: #fff;
+  text-align: center;
+}
+
+.items_pie{
+  display: flex;
+  justify-content: center;
+}
+
+a.lista_foot li{
+  color: white;
+  list-style: disc;
+  list-style-type: disc;
+  text-align: center;
+  font-size: medium;
+  padding: 0%;
+}
+
+.lista_foot{
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: dashed;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.logo_pie{
+  width: 80px;
+}
+
+
